@@ -14,16 +14,19 @@
 </head>
 
 <body onload="randomWord()">
-    <header>
-        <h2 class="page-title">Word Web</h2>
-        <p>A tool to get the definition and hear the pronunciation for any word.
-        </p>
-        <div>
+    <header class="row">
+        <div class="col-4 flex-column">
             <!--Trigger the Modal from a link-->
             <a data-toggle="modal" href="#modalWindow">
                 <h3 id="wodBtn" >Word of <br><span style="color:#634e69;">the Day</span></h3>
             </a>
         </div>
+        <div class="col-8 flex-column" style="text-align: center;">
+            <h2 class="page-title">Word Web</h2>
+            <p>A tool to get the definition and hear the pronunciation for any word.
+            </p>
+        </div>
+        
     </header>
 
     <!-- This is for the word of the day modal -->
