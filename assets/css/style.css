@@ -1,28 +1,23 @@
-body {
-    font-family: 'Times New Roman', sans-serif;
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: bold;
     line-height: 2;
     background-color: #f5f5f5;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
+    flex-direction: column; 
     justify-content: flex-start;
-    position: relative;
-}
+    position: center; 
+} */
 
 /* word of the day link */
-
 #wodBtn {
     padding-left: 70px;
 }
 
-/* The Modal (background) */
-
-
-/* The Modal (background) */
-
+/* modal */
 .modal {
     display: none;
     /* Hidden by default */
@@ -52,15 +47,14 @@ body {
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid #c2b5c7;
     width: 40%;
     text-align: center;
 }
 
-/* The Close Button */
-
+/* styling the close out button */
 .close {
-    color: #f4511e;
+    color: #c2b5c7;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -68,27 +62,26 @@ body {
     transition: 0.3s;
 }
 
-/* styling the close out button */
-
 .close:hover,
 .close:focus {
     opacity: 1;
-    color: #FF0000;
+    color: #b605fc;
     text-decoration: none;
     cursor: pointer;
 }
+/* END modal */
 
 /* apply header styles to */
 
 header {
     background-color: #c2b5c7;
     color: #f5f5f5;
-    display: block;
+    /* display: inline-block;
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
     position: sticky;
-    position: -webkit-sticky;
+    position: -webkit-sticky; */
 
 }
 
@@ -98,7 +91,7 @@ header h2 {
 
 header div {   
     text-align: left;
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 
 header div a {
@@ -116,6 +109,23 @@ a:hover {
 }
 
 /*end header styles */
+#search-con{
+    padding-top: 20px;
+}
+#history-con{
+    padding-top: 20px;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+    color: hsl(287, 15%, 36%);
+    font-size: 18px;
+    padding: 10px 10px; 
+    height: 400px;   
+}
 
 form input {
     background-color: hsl(0, 0%, 100%);
@@ -132,7 +142,7 @@ form input {
 
 #title-container {
     justify-content: center;
-    padding: 10px;
+ /*   padding: 10px;*/
 }
 
 #word-search {
@@ -143,22 +153,7 @@ form input {
     flex-direction: column;
 }
 
-.card {
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 5px;
-    border-width: 1px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-    color: hsl(287, 15%, 36%);
-    font-size: 18px;
-    flex-wrap: wrap;
-    display: block;
-    margin-left: 200px;
-    justify-content: space-between;
-    max-width: 800px;
-    padding: 20px 20px;
-    height: 500px;
-    width: 500px;
-}
+
 
 #history {
     padding: 10px 20px;
@@ -173,23 +168,30 @@ form input {
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 780px) {
     .card {
-        margin-left: unset;
+        margin-left: unset; 
         width: 350px;
         padding: 20px;
-    }
-    header {
+    } 
+    /* header {
         display: flexbox;
-    }
-}
+    } */
+} 
 
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 680 px) {
+   
+    /* body {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        position: center;
+    }
     .card {
         flex-wrap: wrap;
         justify-content: center;
     }
-}
+} 
