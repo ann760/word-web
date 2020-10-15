@@ -1,16 +1,3 @@
-/* body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 2;
-    background-color: #f5f5f5;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    flex-direction: column; 
-    justify-content: flex-start;
-    position: center; 
-} */
 
 /* word of the day link */
 #wodBtn {
@@ -42,7 +29,6 @@
 }
 
 /* Modal Content */
-
 .modal-content {
     background-color: #fefefe;
     margin: auto;
@@ -71,17 +57,11 @@
 }
 /* END modal */
 
-/* apply header styles to */
-
+/* apply header styles */
 header {
     background-color: #c2b5c7;
     color: #f5f5f5;
-    /* display: inline-block;
-    justify-content: center;
-    text-align: center;
-    flex-wrap: wrap;
-    position: sticky;
-    position: -webkit-sticky; */
+
 
 }
 
@@ -101,14 +81,13 @@ header div a {
 }
 
 /* mouse over link */
-
 a:hover {
     text-decoration: none;
     color: #f5f5f5;
     font-family: Impact, Charcoal, sans-serif;
 }
-
 /*end header styles */
+
 #search-con{
     padding-top: 20px;
 }
@@ -142,7 +121,6 @@ form input {
 
 #title-container {
     justify-content: center;
- /*   padding: 10px;*/
 }
 
 #word-search {
@@ -152,8 +130,6 @@ form input {
     display: flex;
     flex-direction: column;
 }
-
-
 
 #history {
     padding: 10px 20px;
@@ -174,9 +150,6 @@ form input {
         width: 350px;
         padding: 20px;
     } 
-    /* header {
-        display: flexbox;
-    } */
 } 
 
 
@@ -184,14 +157,5 @@ form input {
 
 @media screen and (max-width: 680 px) {
    
-    /* body {
-        display: inline-flex;
-        flex-direction: column;
-        justify-content: center;
-        position: center;
-    }
-    .card {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+
 } 
